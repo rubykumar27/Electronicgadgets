@@ -1,0 +1,196 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css);
+@font-face {
+    font-family:sans-serif ;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family:roboto-regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+  }
+  :root{
+    --violet:#42825b;
+    --neutralblack:#334155;
+    --white:#FFFFFF;
+    --darkblue:#e3b448;
+    --primary:#c6e2f3;
+    --grey:#0F172A;
+    --danger:#F77071;
+    --primary-2:#F8FAFC;
+    --secondary:#CBD5E1;
+    --dullblack:#64748B;
+  }
+  *{
+    font-family: roboto-regular;
+  }
+  .login{
+    height: 2.5rem;
+  }
+  .cartcircle{
+    height: 2.25rem!important;
+  }
+  .navbar-background,.form-check-input:checked{
+      background-color: var(--violet);
+}
+.subheader-background{
+  background-color: var(--primary);
+}
+.girlsong{
+  left:100px;
+}
+
+  .navlink-fontcolor{
+    color:var(--violet);
+  }
+  .navlink-border{
+    border-color: var(--violet)!important;
+  }
+  .copyright-fontcolor{
+    color:var(--neutralblack);
+  }
+  .unique-fontcolors{
+    color: var(--grey);
+  }
+  .errorhighlight{
+    color:var(--danger);
+  }
+  .termsandcondition{
+    color:var(--dullblack);
+  }
+  .activebackground:hover{
+    border:2px solid var(--violet)!important;
+  }
+  .devicebackgrounds:hover{
+    background-color: var(--primary);
+    border:2px solid var(--violet)!important;
+  }
+  
+  .devicebackgrounds:hover .imageholder{
+    background-color:#fff;
+  }
+  .buttonbackground:hover{
+    background-color:var(--violet);
+    color: #fff!important;
+  }
+  /* placeorder */
+  .fullname{
+    height: 3rem;
+  }
+  /* billpurchase */
+  .order-border{
+    border-right:0.0625rem solid var(--neutralblack);
+    border-left: 0.0625rem solid var(--neutralblack);
+  }
+  .checkoutwidth{
+    width:22rem;
+  }
+  .circleborder{
+    border-color: var(--violet)!important;
+  }
+  .table-background{
+    background-color: var(--primary-2);
+    border-color: var(--secondary);
+  }
+  /* index */
+  .colorbackground{
+    margin-top: -1.125rem;
+    box-shadow:0.3125rem 0.3125rem 0.3125rem rgb(0,0,0.10);
+  }
+  .sliding.active{
+    background-color: var(--darkblue)!important;
+  }
+  .navbar-toggler-icon.iconcolor
+  {
+      background-image: url('/images-svg/index/Buttons.svg');
+      background-size: auto;
+  }
+  .storagedetails{
+    width: 7.5rem;
+    height: 2.5rem;   
+}
+  .blue{
+    background-color: #437691;
+  }
+  .pink{
+    background-color:#FBE2DD;
+  }
+  .midnight{
+    background-color: #42494F;
+  }
+  .starlight{
+    background-color:#FBF7F4;
+  }
+  .green{
+    background-color: #485947;
+  }
+  .red{
+    background-color: #C92434;
+  }
+  /* phonedetails */
+  .device-circle{
+    min-width: 5rem;
+    max-height: 5rem;
+    border-radius: 50%;
+  }
+  .imageframe-background{
+    background-image: url('/images-svg/devicevariant/Frame.svg');
+    background-repeat: repeat-x;
+    height: 16.0625rem;
+  }
+  .card-image{
+    max-width: 37.5rem;
+  }
+  .dashedline{
+    border-top: 0.1875rem solid var(--grey);
+    width: 31.25rem;
+    margin-top: 9.375rem;
+  }
+  .buttoncard{
+    margin-top: 11.25rem;
+  }
+  @media only screen and (max-width: 990px) {
+    .order-border{
+      border-top:0.0625rem solid var(--neutralblack);
+      border-bottom: 0.0625rem solid var(--neutralblack);
+      border-right: none;
+      border-left:none;      
+    }
+    .searching{
+      margin-bottom: -3.75rem;
+    }
+    .boxsearch{
+      box-shadow:0.3125rem 0.3125rem 0.3125rem rgb(0,0,0.1);
+    }
+    .card-image{
+     min-width: 23.75rem;
+    }
+    .imageframe-background{
+      height: 9.8125rem;
+      
+    }
+    .dashedline{
+      width: 18.75rem;
+      margin-top: 6.25rem;
+    }
+    .buttoncard{
+      margin-top: 6.875rem;
+    }
+    .mapsettings{
+      width: 17.5rem;
+      height: 26.25rem;
+    }
+  }
+  @media (min-width: 1000px){
+    /* billpurchase */
+    .buttontrade{
+      width: 15.8125rem;
+      height: 2.625rem;
+    }
+    .mapsettings{
+      width: 705px;
+      height: 808px;
+    }
+    .image-size{
+      width: 500px;
+      height: 295px;
+    }
+  }
